@@ -88,8 +88,8 @@ if shared.FuncsConnect then
 		end
 	end
 	if Functions.executor:find("Arceus X") then
-		Functions.RobloxNotification("Detected", "you executor not support for FunctionsHandler\nExecutor : Arceus X", 5)
-		Functions.displayErrorPopup("Detected", "you executor not support for FunctionsHandler\nExecutor : Arceus X", "OK", {OK = function()
+		Functions.RobloxNotification("shit", "stop using arcerus x and use fluxus mobile or some shit", 5)
+		Functions.displayErrorPopup("shit", "stop using arcerus x and use fluxus mobile or some shit", "OK", {OK = function()
 		  spawn(function()
         repeat
           wait(0.2)
@@ -101,8 +101,8 @@ if shared.FuncsConnect then
 		end})
 	end
 	for i,v in pairs(playersService:GetPlayers()) do
-		if v.UserId == 3110380407 or v.UserId == 4613474609 then
-			Functions.displayErrorPopup("Blacklist", "You has Been Blacklist, L imagine got blacklist", "OK", {OK = function()
+		if v.UserId == 1 or v.UserId == 1 then
+			Functions.displayErrorPopup("blacklist", "lmao", "OK", {OK = function()
 				game:Shutdown()
 			end})
 		end
@@ -120,7 +120,7 @@ if shared.FuncsConnect then
 --]]
 	
 	if shared.FuncsConnect then
-		print("Functions Has Been Connected!")
+		print("connected")
 	end
 else
 	warn("Failed to Connected or shared.FuncsConnect = false")
