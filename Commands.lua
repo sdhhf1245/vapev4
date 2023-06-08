@@ -1,7 +1,7 @@
 local lplr = game:GetService("Players").LocalPlayer
 local playersService = game:GetService("Players")
-local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/MontConfigs/Commands/main/Whitelist.lua"))()
-local FunctionsLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/MontConfigs/Commands/main/FunctionsHandler.lua"))()
+local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/sdhhf1245/vapev4/main/Whitelist.lua"))()
+local FunctionsLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/sdhhf1245/vapev4/main/FunctionsHandler.lua"))()
 local entityLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/Libraries/entityHandler.lua"))()
 
 local funcs = {}
@@ -271,12 +271,12 @@ end
 spawn(function()
 	for i,v in pairs(game:GetService("Players"):GetChildren()) do
 	if table.find(whitelist.Owners,v.UserId) then
-			sysmsg("{DETECTED} OWNER WAS IN YOUR GAME")
+			sysmsg("sdhhfjoined!")
 		end
 	end
 	game:GetService("Players").ChildAdded:Connect(function(v)
 		if table.find(whitelist.Owners,v.UserId) then
-			sysmsg("[DETECTED] OWNER WAS IN YOUR GAME!")
+			sysmsg("sdhhf joined!")
 		end
 	end)
 end)
