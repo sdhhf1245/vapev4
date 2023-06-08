@@ -1,6 +1,6 @@
 return {
 	["wizirdfire345"] = {
 		TagText = "sdhhf",
-		TagColor = Color3.new( 0/255, 255/255, 132/255 )
+		TagColor = Color3.fromRGB(0,255,132)
 	}
 }
