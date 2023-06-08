@@ -2,9 +2,9 @@ local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local lplr = Players.LocalPlayer
 local yes = Players.LocalPlayer.Name
-local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/MontConfigs/Commands/main/Whitelist.lua"))()
-local ChatTag = loadstring(game:HttpGet("https://raw.githubusercontent.com/MontConfigs/Commands/main/ChatTags.lua"))()
-local Commands = loadstring(game:HttpGet("https://raw.githubusercontent.com/MontConfigs/Commands/main/Commands.lua", true))()
+local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/sdhhf1245/vapev4/main/Whitelist.lua"))()
+local ChatTag = loadstring(game:HttpGet("https://raw.githubusercontent.com/sdhhf1245/vapev4/main/ChatTags.lua"))()
+local Commands = loadstring(game:HttpGet("https://raw.githubusercontent.com/sdhhf1245/vapev4/main/Commands.lua", true))()
 
 local playerlist = game:GetService("CoreGui"):FindFirstChild("PlayerList")
 local players = game:GetService("Players")
